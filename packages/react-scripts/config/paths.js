@@ -54,6 +54,8 @@ const mergePaths = appPaths => {
     : appPaths;
 };
 
+console.log('----- i am here  -----');
+
 // pass in param to disabled typescript
 const disableType = argv.typescript !== undefined && !argv.typescript;
 
